@@ -4,7 +4,7 @@
   "description": "Notifikasi PWA",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
     "socket.io": "*",
     "body-parser": "*",
     "web-push": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }

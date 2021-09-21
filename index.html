@@ -25,7 +25,7 @@
   <script type="text/javascript">
     $(document).ready(function () {
 
-      var socket = io.connect(window.location.hostname + ':30000');
+      var socket = io.connect(window.location.hostname);
 
       socket.on('notifikasi', function (data) {
         document.getElementById('isi_notif').value = '';

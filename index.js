@@ -5,7 +5,7 @@ var app = express();
 var server = app.listen(port, () => console.log(`Server started on port ${port}`));
 var io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost",
+    origin: "*",
     methods: ["GET", "POST"]
   }
 });
